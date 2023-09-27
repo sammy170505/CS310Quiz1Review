@@ -2,9 +2,11 @@
 
 Order to work on files:
 
-  mainFile.cpp
-  Movie.h
-  Movie.cpp
-  makefile
+<ul>
+  <li>mainFile.cpp</li>
+  <li>Movie.h</li>
+  <li>Movie.cpp</li>
+  <li>makefile</li>
+</ul>
 
 -CS310 Fall 2023
