@@ -15,14 +15,19 @@ int main(){
  * QUESTION:
  * 1. What constructors do each of
  * these lines call?
+ 
+ 1. Movie(int n, string const &str); -> value
+ 2. copy
+ 3. 
+ 
  **/
 
     Movie a(0, s1);
     Movie b(a);
-    Movie c = a;
+    Movie c = a; // copy
     Movie d;
-    d = c;
-    Movie e;
+    d = c; // operator euqals
+    Movie e; // default
 
     cout << endl << endl;
 
